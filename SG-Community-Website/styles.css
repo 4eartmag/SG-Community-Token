@@ -1,0 +1,165 @@
+/* @font-face Rule to Load Custom Font */
+@font-face {
+  font-family: 'CF One Two Trees';
+  src: url('fonts/CfOneTwoTreesRegular-4LGp.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+/* Global Styles */
+body {
+  font-family: 'CF One Two Trees', sans-serif;  /* Apply the custom font to the entire body */
+  background-color: #000000;  /* Black (75%) */
+  color: #FFFFFF;  /* White text for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+  
+  h1, h2, h3 {
+    font-family: 'CF One Two Trees', 'CF One Two Trees';
+  }
+  
+  /* Header & Navigation */
+  header {
+    background-color: #000000;  /* Black (75%) */
+    color: white;
+    padding: 20px 10%;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff5e00;  /* Orange (25%) hover effect */
+  }
+  
+  /* Hero Section */
+  #home {
+    background-color: #000000;  /* Change to black */
+    color: white;  /* Text color stays white for contrast */
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  #home h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    background-color: #FF6600;  /* Orange (25%) */
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+    font-family: 'CF One Two Trees', sans-serif;  /* Apply custom font */
+  }
+  
+  button:hover {
+    background-color: #e65c00;  /* Darker orange on hover */
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #000000;  /* Black (75%) */
+    padding: 80px 10%;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #ffffff;  /* Lighter text for readability */
+  }
+  
+  /* Tokenomics Section */
+  #tokenomics {
+    background-color: #000000;  /* Darker Black shade */
+    padding: 80px 10%;
+    text-align: center;
+  }
+  
+  #tokenomics h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #000000;
+  }
+  
+  th {
+    background-color: #FF6600;  /* Orange (25%) */
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #000000;  /* Slightly lighter black for rows */
+  }
+  
+  tr:hover {
+    background-color: #000000;  /* Dark gray on hover */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000000;  /* Black (75%) */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  
